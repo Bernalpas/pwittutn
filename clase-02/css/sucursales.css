@@ -1,0 +1,33 @@
+
+/* selector global para el html */
+* {
+
+}
+
+#parrafo{
+    color: red;
+}
+
+/* selectores de clase */
+.segundo{
+    color: green;
+    background: gray;
+}
+
+.grande{
+    font-size: 35px;
+}
+
+/* selector de id */
+#unico{
+    color: violet;
+}
+
+
+div {
+    background: rgb(165, 165, 229);
+}
+
+h2 {
+    color:rebeccapurple;
+}

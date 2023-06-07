@@ -1,0 +1,39 @@
+
+/* normalización */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* selector por elemento */
+footer{
+    background: #f1bcbc;
+}
+
+/* selector por clases */
+.ancla{
+    text-decoration: none;
+}
+
+.titulo{
+    padding-top: 50px;
+    padding-right: 150px;
+    padding-left: 300px;
+    padding-bottom: 500px;
+    border-top: 10px solid green;
+    border-right: 15px dashed blue;
+    border-bottom: 15px solid yellow;
+    border-left: 15px dashed red;
+    margin-top: 100px;
+    margin-right: 150px;
+    margin-bottom: 200px;
+    margin-left: 90px;
+}
+
+
+/* selector por id */
+#selectorId{
+    color: red;
+}
+

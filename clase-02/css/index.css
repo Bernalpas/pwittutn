@@ -1,0 +1,114 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body{
+    background: #a9c1ed
+}
+
+/* @media screen and (max-width: 478px)   {
+    body{
+        background: yellow;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 24;
+    }
+
+    h1{
+        color: blue;
+    }
+
+    p{
+        line-height: 2.5px;
+    }
+} */
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+    body{
+        background: yellow;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 24;
+    }
+
+    h1{
+        color: blue;
+    }
+
+    p{
+        line-height: 2.5px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    body{
+        background: red;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 24;
+    }
+    h1{
+        color: black;
+    }
+    p{
+        line-height: 2.5px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    body{
+        background: green;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 24;
+    }
+    h1{
+        color: blue;
+    }
+    p{
+        line-height: 2.5px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    body{
+        background: violet;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 24;
+    }
+
+    h1{
+        color: blanchedalmond;
+    }
+
+    p{
+        line-height: 2.5px;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    body{
+        background: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 24;
+        color: #FFFFFF;
+    }
+
+    h1{
+        color: blue;
+    }
+
+    p{
+        line-height: 2.5px;
+    }
+  }

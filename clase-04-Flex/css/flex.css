@@ -1,0 +1,49 @@
+
+body{
+    background: rgb(220, 220, 238)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Flex: es responsivo  */
+
+.contenedorPadre{
+    display: flex;
+    flex-direction: column; /* columnas */
+    flex-direction: column-reverse; /* columna inversa */
+    flex-direction: row-reverse; /* fila inversa */
+    flex-direction: row;/* fila */
+    flex-wrap: wrap-reverse;/* salta de línea y me invierte las filas */
+    flex-wrap: nowrap; /* no salta de líena */
+    flex-wrap: wrap; /* salta de líena cuando es pequeño */
+    justify-content: flex-start; /* inicia los elemento en left */
+    justify-content: flex-end; /* inicia los elemento en right */
+    justify-content: center; /* ubica los elementos en el centro */
+    justify-content: space-around; /* separa automáticamente los elementos */
+    justify-content: space-between; /* separa automáticamente los elementos */
+    justify-content: space-evenly; /* separa automáticamente los elementos */
+    align-content: end; /* ordena los elemento abajo del contenedor */
+    align-content: center; /* ordena los elementos en el centro  */
+    align-content: flex-end; /* ordena los elemento abajo del contenedor */
+    align-content: flex-start; /* ordena los elemento arriba en el contenedor */
+    padding: 20px;
+    background: blue;
+    height: 600px;
+}
+
+.contenedorPadre div{
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    border: 1px solid black;
+    font-size: 30px;
+    text-align: center;
+/*     margin: 15px; */
+}
+
+
+

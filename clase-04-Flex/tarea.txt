@@ -1,0 +1,10 @@
+
+
+1. Crear un Proyecto nuevo. 
+
+2. Crear una barra de navegación con flex.
+
+3. Grilla de Productos con imágenes (7 imágens de productos) y los van a acomodar con Flex.
+
+4. Extra: crear un footer y traer unos íconos y acomodarlos con flex.
+

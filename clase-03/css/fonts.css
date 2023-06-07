@@ -1,0 +1,76 @@
+
+/* Font: propiedades que manejas la tipografía dentro de nuestro dos html */
+
+/* Importamos una tipografía de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=The+Girl+Next+Door&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.p1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.p2{
+    /* display: inline; */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', serif;
+    font-size: 1.5rem; 
+    font-style: italic;
+    width: 300px;
+    height: 300px;
+    border: 3px solid;
+
+}
+
+.p3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', monospace;
+    font-size: 35px;
+    font-style: oblique;
+}
+
+
+/* asignamos la tipografía linkeada en el html */
+.p4{
+    font-size: 8vw;
+    font-family: 'Averia Libre', cursive;
+    font-variant: small-caps;
+}
+
+/* asignamos la tipografía importada desde el css */
+.p5{
+    font-size: 5vw;
+    font-family: 'The Girl Next Door', cursive;
+    font-weight: 600;
+}
+
+
+/* Seteamos la tipografía con font-face y buscamos la fuente */
+@font-face {
+    font-family: Martian;
+    src: url('../fonts/MartianMono_SemiExpanded-Regular.ttf');
+}
+
+@font-face {
+    font-family: Entropic;
+    src: url('../fonts/EntropicBrush_PERSONAL_USE_ONLY.otf');
+}
+
+/* Asignamos la fuente seleccionada al párrafo */
+.p6{
+    font-size: 4vw;
+    font-family: Martian;
+    font-weight: 900;
+}
+
+.p7{
+    font-size: 4vw;
+    font-family: Entropic;
+    font-weight: bold;
+}
