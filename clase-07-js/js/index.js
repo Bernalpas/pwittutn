@@ -1,4 +1,14 @@
 
+
+
+
+
+
+
+
+
+
+
 console.log('3. Estoy en el archivo externo');
 
 /* 
@@ -117,6 +127,171 @@ console.log(resultado);
 //booleanos
 let verdadero = true;
 let falso = false;
+
+console.log('=============================================================');
+console.log('=============================================================');
+//Operadores relacionales: ==, ===, <, >, !=, !
+
+let edad = 18;
+
+//condicionales: if
+/* if(condition == verdadera para que se ejecute el código){
+
+} */
+
+if(edad < 18 ){//false
+    console.log('1. No puedes comprar bebidas')
+}
+
+if(edad > 18){//false
+    console.log('2. Puedes comprar bebidas')
+}
+
+
+if(edad >= 18){//true
+    console.log('3. Puedes comprar bebidas')
+}
+
+if(edad <= 18){//true
+    console.log('4. No puedes comprar bebidas')
+}
+
+if(edad == 18){//true
+    console.log('5. Tenés 18 años');
+}
+
+if(edad === 18){//true
+    console.log('6. Son estrictamente iguales');
+}
+
+
+console.log('=============================================================');
+console.log('=============================================================');
+
+let password = 123456789;
+
+
+if(password === 123456789){
+    console.log('Podés tener acceso a tu cuenta bancaria');
+}
+
+
+
+let a = 5;
+
+console.log(a == 5);
+console.log(a != 5);
+console.log(!true);
+console.log(!false);
+
+
+console.log('=============================================================');
+console.log('=============================================================');
+
+
+//Operadores lógicos: && || 
+//&& y lógico: todas las condiciones deben ser true
+//|| o lógico: sólo una de las condiciones debe ser true
+
+let cliente = true;//suponer que todos son clientes
+let pagoAlDia = false;
+let dia = 'viernes'
+
+if(true){
+    console.log('hola');
+}
+
+if(false){
+    console.log('hola');
+}
+
+//   false        false            false = false
+if(!cliente && dia == 'lunes' && pagoAlDia){
+    console.log('Lo sentimos, no tenemos oferta para usted hoy');
+}
+
+//  true        false = false 
+if(cliente && dia == 'lunes'){
+    console.log('Por ser cliente, tiene un 50% de descuento por ser viernes');
+}
+
+//   true       true = true
+if(cliente && dia == 'viernes'){
+    console.log('Por ser cliente y ser viernes, tenemos un 70% de descuento');
+}
+
+
+console.log('=============================================================');
+console.log('=============================================================');
+
+//    false        false          false = false
+if(!cliente || dia == 'lunes' || pagoAlDia){
+    console.log('Lo sentimos, no tenemos oferta para usted hoy');
+}
+
+//   true       false            false  =  true
+if(cliente || dia == 'lunes' || pagoAlDia){
+    console.log('Por ser cliente, tiene un 50% de descuento por ser viernes');
+}
+
+//   true          true  = true
+if(cliente || dia == 'viernes'){
+    console.log('Por ser cliente y ser viernes, tenemos un 70% de descuento');
+}
+
+console.log('=============================================================');
+console.log('=============================================================');
+
+let usuario = 'Pepe';
+let facial = false;
+
+//        true               true     = true             
+if(usuario == 'Pepe' && password == 123456789){
+    console.log('Bienvenido Pepe a tu sistema');
+    //se va a otra página
+}
+
+
+//        true               true                  false  = false
+if(usuario == 'Pepe' && password == 123456789 && facial){
+    console.log('Bienvenido Pepe a tu sistema');
+    //se va a otra página
+}
+
+//    true                    false                false   = true
+if(usuario == 'Pepe' || password == 2131453454 || facial){
+    console.log('Bienvenido Pepe a tu sistema');
+    //se va a otra página
+}
+
+
+console.log('=============================================================');
+console.log('=============================================================');
+
+/*
+if (condition) {
+    
+} else {// o si no
+    
+}
+*/
+
+//    true                    false                false   = true
+if(usuario == 'Pepe' && password == 2131453454 && facial){
+    console.log('Bienvenido Pepe a tu sistema');
+    //se va a otra página
+}else{
+    console.log('Ususrio o password o facial incorrectos');
+}
+
+//alert(): función modal para enviar mensajes
+
+//prompt(): función modal para introducir datos
+
+
+
+
+
 
 
 
