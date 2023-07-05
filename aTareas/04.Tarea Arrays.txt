@@ -1,0 +1,30 @@
+
+                                          Tarea 04 - Arrays
+		      21/06/2023
+
+
+
+1) Recorrer el siguiente array de strings y contabilizar la cantidad de veces que aparece el string 'hola'
+
+
+	const palabras = ['pepe', 'buen dia', 'hola', 'soy juan', 'hola']
+
+ * Se debera decir por alerta al final, "la lista de palabras contiene 2 veces el string 'hola'"
+
+
+2) Recorrer el array de notas y sacar el promedio
+
+	const notas = [8, 9, 4]
+
+ * Se debera decir por alerta al final, "El promedio final es: {promedio}"
+
+
+3) Recorrer el array de mensajes y contabilizar la cantidad de caracteres de todos los mensajes
+
+	const mensajes = ['hola a todos', 'buenas', 'me gusta JS']
+
+ * Si la cantidad total es menor a 20, se dira 'el usuario recien empieza'
+
+ * Si la cantidad total es entre 20 y 50, se dira 'el usuario es nuevo'
+
+ * Si la cantidad total es mayor a 50, se dria 'el usuario es recurrente'

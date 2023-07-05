@@ -1,0 +1,12 @@
+
+
+Tarea N° 3:
+
+1. Clonar o descargar el archivo de la clase 07 de Github: https://github.com/Bernalpas/pwittutn.git
+2. Crear un login en el archivo login.html, que incluya los label y los inputs
+3. Capturar los datos ingresados por el usuario con los modales de prompt
+4. Mostrar un mensaje al usuario si ingresó sus datos correctamente o si están incorrectos
+5. Redirigir al usuario a una nueva página
+6. Pueden crear un pequeño menú de navegación para el user
+
+
