@@ -1,6 +1,23 @@
 
 console.log('Estamos en el JS de Productos');
 
+let memoriaLocal = localStorage.getItem('Nombre');
+
+let misProductos = localStorage.getItem('Productos');
+
+console.log('========================');
+
+console.log(misProductos);
+
+console.log('========================');
+
+
+console.log(memoriaLocal);
+
+let titulo = document.getElementById('titulo');
+
+titulo.innerHTML = memoriaLocal;
+
 
 
 //función para cargar la tabla de productos

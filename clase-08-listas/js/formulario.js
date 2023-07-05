@@ -46,6 +46,18 @@ function cargarProductos() {
     //imprimimos el arreglo
     console.log(productos);
 
+    //utilizamos el localstorage
+    localStorage.setItem('Nombre', 'Pepe');
+
+    //guardamos productos
+    //localStorage.setItem('Productos', productos) - [object - object]
+
+    //1. Creamos una variable para que podamos convertir los datos a JSON
+    let misProductos = JSON.stringify(productos);
+
+    //2. Le pasamos la variable al localStorage
+    localStorage.setItem('Productos', misProductos);
+    
     //imprimimos en la consola los datos del producto
     //console.log(nombreProducto);
     //console.log(precioProducto);
